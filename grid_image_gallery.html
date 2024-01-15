@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image gallery</title>
+    <style>
+         .contaner{
+            height: 100vh;
+            display: grid; 
+           background-color: rgb(255, 255, 255);
+            grid-template-areas: 
+            'IMAGE1 IMAGE1 IMAGE1 IMAGE1 IMAGE2 IMAGE2'
+            'IMAGE3 IMAGE3 IMAGE4 IMAGE4 IMAGE6 IMAGE6'
+            'IMAGE3 IMAGE3 IMAGE5 IMAGE5 IMAGE6 IMAGE6'
+            
+            ;
+        }
+        .image1{
+            grid-area: IMAGE1;
+           
+            border-radius: 15px;
+            padding: 10px;
+        }
+        .image2{
+            grid-area: IMAGE2;
+            
+            border-radius: 15px;
+           padding: 10px;
+        }
+        .image3{
+            grid-area: IMAGE3;
+           
+border-radius: 15px;
+           padding: 10px;
+        }
+        .image4{
+            grid-area: IMAGE4;
+            
+border-radius: 15px;
+           padding: 10px;
+        }
+        .image5{
+            grid-area: IMAGE5;
+           
+border-radius: 15px;
+           padding: 10px;
+        }
+        .image6{
+            grid-area: IMAGE6;
+            
+border-radius: 15px;
+           padding: 10px;
+        }
+        img{
+            border-radius: 15px;
+           padding: 10px;
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="contaner">
+        <div class="image1"><img src="https://images.pexels.com/photos/12567808/pexels-photo-12567808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></div>
+        <div class="image2"><img src="https://images.pexels.com/photos/19733182/pexels-photo-19733182/free-photo-of-a-large-group-of-tall-buildings-in-the-distance.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></div>
+        <div class="image3"><img src="https://images.pexels.com/photos/9407086/pexels-photo-9407086.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></div>
+        <div class="image4"><img src="https://images.pexels.com/photos/1470405/pexels-photo-1470405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></div>
+        <div class="image5"><img src="https://images.pexels.com/photos/19429182/pexels-photo-19429182/free-photo-of-studio-shot-of-fresh-strawberries.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=""></div>
+        <div class="image6"><img src="https://images.pexels.com/photos/9558413/pexels-photo-9558413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid_abcd</title>
+
+    <style>
+        .container{
+            border: 2px solid black;
+            height: 1200px;
+            width: 1900px;
+            display: grid;
+            background-color: aliceblue;
+            grid-template-areas: 
+            
+            'A A B'
+            'C D B'
+            ;
+        }
+        .A{
+            grid-area: A;
+            background-color: rgb(224, 194, 154);
+            margin: 20px;
+            font-size: 100px;
+            border-radius: 15px;
+        }
+        .B{
+            grid-area: B;
+            background-color: rgb(224, 194, 154);
+            margin: 20px;
+            font-size: 100px;
+
+            border-radius: 15px;
+        }
+        .C{
+            grid-area: C;
+            background-color: rgb(224, 194, 154);
+            margin: 20px;
+            font-size: 100px;
+
+            border-radius: 15px;
+        }
+        .D{
+            grid-area: D;
+            background-color: rgb(224, 194, 154);
+            margin: 20px;
+            font-size: 100px;
+
+            border-radius: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="A">A</div>
+        <div class="B">B</div>
+        <div class="C">C</div>
+        <div class="D">D</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+expaination :  
+
+In CSS Grid, grid-auto-row and grid-auto-column are properties 
+that allow you to specify the size of implicitly created rows and columns
+in a grid. Implicit rows and columns 
+are those that are created automatically when you have more items in
+ your grid than you have defined rows or columns for.
